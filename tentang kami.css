@@ -1,0 +1,25 @@
+/* Gaya untuk Halaman Tentang Kami */
+.about-section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.about-section h2 {
+    color: #e6a8d6; /* Menggunakan warna pink dari header */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.about-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about-section li {
+    margin-bottom: 10px;
+}

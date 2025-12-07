@@ -1,0 +1,52 @@
+/* Gaya untuk Halaman Testimoni */
+.testimoni-list {
+    display: flex; /* Mengatur item dalam baris */
+    flex-wrap: wrap; /* Memungkinkan item turun ke baris baru jika ruang tidak cukup */
+    justify-content: center; /* Memusatkan kotak testimoni */
+    gap: 25px; /* Jarak antar kotak */
+    margin: 40px auto;
+    max-width: 1100px;
+}
+
+.testimoni-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 350px; /* Ukuran maksimal setiap kotak */
+    flex: 1 1 300px; /* Memungkinkan item fleksibel, minimal lebar 300px */
+    border-left: 5px solid #a8e6cf; /* Garis warna mint sebagai aksen */
+    text-align: left;
+}
+
+.testimoni-box p {
+    font-style: italic;
+    font-size: 1.05em;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.testimoni-box footer {
+    text-align: right;
+    font-size: 0.9em;
+    color: #e6a8d6; /* Warna pink manis untuk nama pelanggan */
+    font-weight: bold;
+}
+
+/* Gaya untuk bagian Call-to-Action di bawah testimoni */
+.call-to-action {
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #ffd7e6; /* Warna pink muda */
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 500;
+}

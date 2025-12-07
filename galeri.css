@@ -1,0 +1,23 @@
+/* Gaya untuk Halaman Galeri */
+.gallery-container {
+    display: grid;
+    /* Membuat grid dengan kolom yang fleksibel, minimal 250px per kolom */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 15px; /* Jarak antar gambar */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-image {
+    width: 100%; /* Membuat gambar mengisi lebar kolom */
+    height: 250px; /* Atur tinggi gambar agar seragam */
+    object-fit: cover; /* Memastikan gambar terpotong rapi tanpa merusak aspek rasio */
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image:hover {
+    transform: scale(1.03); /* Efek zoom saat kursor diarahkan */
+}
