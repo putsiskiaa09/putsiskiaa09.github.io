@@ -1,0 +1,25 @@
+/* Gaya untuk Halaman Spesial */
+.spesial-item {
+    background-color: #fff9e6; /* Warna kuning muda/krem */
+    border: 2px solid #ffcc00; /* Border kuning cerah */
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.spesial-item h2 {
+    color: #cc0000; /* Warna merah untuk menarik perhatian */
+    margin-top: 0;
+    border-bottom: 2px dashed #ffcc00;
+    padding-bottom: 10px;
+}
+
+.spesial-item p strong {
+    font-size: 1.2em;
+    color: #008000; /* Warna hijau untuk diskon */
+    display: block;
+    margin-top: 15px;
+}
